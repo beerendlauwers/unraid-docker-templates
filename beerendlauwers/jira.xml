@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Beta>False</Beta>
+<Category>MediaServer:Music</Category>
+  <Name>Atlassian JIRA</Name>
+  <Description>tbc
+  </Description>
+  <Overview>tbc
+  </Overview>
+  <Support>tbc</Support>
+  <Registry>https://hub.docker.com/r/cptactionhank/atlassian-jira/</Registry>
+  <GitHub>https://github.com/cptactionhank/docker-atlassian-jira</GitHub>
+  <Repository>cptactionhank/docker-atlassian-jira</Repository>
+  <Project>tbc</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>14111</HostPort>
+        <ContainerPort>14111</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/jira/var</HostDir>
+      <ContainerDir>/var/atlassian/jira</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+      <HostDir>/mnt/cache/appdata/jira/opt</HostDir>
+      <ContainerDir>/opt/atlassian/jira</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:14111]/</WebUI>
+  <Icon>tbc</Icon>
+  <DonateText>tbc</DonateText>
+  <DonateLink>tbc</DonateLink>
+  <DonateImg>tbc</DonateImg>
+  <ExtraParams></ExtraParams>
+</Containers>
