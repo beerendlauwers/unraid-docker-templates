@@ -32,6 +32,7 @@
       <ContainerDir>/var/atlassian/jira</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+	<Volume>
       <HostDir>/mnt/cache/appdata/jira/opt</HostDir>
       <ContainerDir>/opt/atlassian/jira</ContainerDir>
       <Mode>rw</Mode>
