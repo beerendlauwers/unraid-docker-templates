@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Beta>False</Beta>
-<Category>MediaServer:Music</Category>
+<Category>Productivity:</Category>
   <Name>Atlassian JIRA</Name>
   <Description>tbc
   </Description>
@@ -10,7 +10,7 @@
   <Support>tbc</Support>
   <Registry>https://hub.docker.com/r/cptactionhank/atlassian-jira/</Registry>
   <GitHub>https://github.com/cptactionhank/docker-atlassian-jira</GitHub>
-  <Repository>cptactionhank/docker-atlassian-jira</Repository>
+  <Repository>cptactionhank/atlassian-jira-software:latest</Repository>
   <Project>tbc</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
