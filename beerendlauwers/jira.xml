@@ -19,7 +19,7 @@
     <Publish>
       <Port>
         <HostPort>14111</HostPort>
-        <ContainerPort>14111</ContainerPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
